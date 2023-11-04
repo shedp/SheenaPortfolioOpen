@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="assets/scripts/nav.js"></script>
+    <script defer src="assets/scripts/load.js"></script>
+    <link rel="stylesheet" href="assets/styles/main.css" />
+    <link rel="stylesheet" href="assets/styles/nav.css" />
+    <link rel="stylesheet" href="assets/styles/index.css" />
+    <link rel="stylesheet" href="assets/styles/footer.css" />
+    <title>Sheena | Portfolio</title>
+</head>
+
+<body>
+    <div id="wrapper">
+        <header id="navbar">
+            <a href="#" class="logo">Sheena Diep</a>
+            <nav id="nav-links">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div id="menu-toggle"">
+                <a href=" #">Menu</a>
+            </div>
+        </header>
+        <div id="menu-modal" class="modal">
+            <span id="close-btn" class="close">&times;</span>
+            <div class="modal-content">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <section class="banner topBanner">
+            <div class="inner">
+                <header class="major">
+                    <h1>Hello, I'm <span class="name">Sheena Diep</span></h1>
+                </header>
+                <div class="content">
+                    <p>I am an aspiring UX Designer and software developer<br />based in London.</p>
+                    <a href="https://drive.google.com/file/d/1LznP4z6VdKC1YBWIZwcROdJ2tOCVMqj3/view?usp=sharing"
+                        target="blank"><button class="action">
+                            View My CV
+                        </button></a>
+                </div>
+        </section>
+        <section class="skills">
+            <div class="inner">
+                <header class="major">
+                    <h2>Skills</h2>
+                </header>
+                <div class="skills_table">
+                    <div class="table_item table_header" width="33.33%">
+                        <h3>Languages & Frameworks</h3>
+                        <p>
+                            Widely self-taught programming skills in languages such as JavaScript, Python and
+                            SQL.<br />
+                            Experience in frameworks like NodeJS, Express, Flask, Django,<br />
+                            Passionate about UI/UX with experience in ReactJS, HTML, CSS, Bootstrap, Tailwind
+                            CSS.</p>
+                    </div>
+                    <div class="table_item" width="33.33%"">
+                        <h3>Tools & Apps</h3>
+                                <p>
+                                    Tools used include Github, Visual Studio Code, Docker, Figma.<br />
+                                    Have use collaboration tools such as Azure Devops, Trello, and have in overseen
+                                    development
+                                    of M365 estate in an enterprise including technologies such as SharePoint and Teams.
+                                </p>
+                            </div>
+                            <div class=" table_item" width="33.33%"">
+                                <h3>Other</h3>
+                                <p>
+                                    Experience digital marketing, managing accounts in Google Ads, Microsoft
+                                    Advertising, Amazon Advertising. Help launch challenger brands on to Amazon and
+                                    devising
+                                    strategies and sales forecasts in a client-facing role.
+                                </p>
+                            </div>
+
+                </table>
+        </section>
+        <section class=" featured banner">
+                        <div class="inner">
+                            <header class="major">
+                                <h2>Featured Projects</h2>
+                            </header>
+                            <a href="#"><button class="action">
+                                    See More
+                                </button></a>
+                        </div>
+        </section>
+        <section id="projects" class="tiles">
+            <article class="tile overlay-item">
+                <img src="assets/images/upperhand.png" alt="Upper Hand Poker" />
+                <div class="image-overlay coral">
+                    <h3>Upper Hand Poker</h3>
+                    <p><span class="subtitle">A poker game with a twist! </span>Upper Hand Poker is a multi player
+                        game
+                        built with Vite and
+                        Tailwind CSS in the frontend and Flask in the backend with and SQL database.</p>
+                    <div class="icons">
+                        <a href="https://github.com/liambrockpy/upper-hand-vite-client" target="_blank"><img
+                                src="assets/icons/github.png" alt="frontend github"></a>
+                        <a href="https://github.com/liambrockpy/upper-hand-server" target="_blank"><img
+                                src="assets/icons/github.png" alt="backend github"></a>
+                    </div>
+                </div>
+            </article>
+            <article class="tile">
+                <img src="assets/images/yeoldequiz.png" alt="Ye Olde Quiz" />
+                <div class="image-overlay mustard">
+                    <h3>Ye Olde Quiz</h3>
+                    <p><span class="subtitle">Ye Old Quiz brings the pub quiz to your homes.</span> This retro-style
+                        multiplayer quiz game uses
+                        Socket.io
+                        and a React.js frontend with a Node.js for the backend.</p>
+                    <div class="icons">
+                        <a href="https://github.com/PollyFenne/Ye_olde_quiz_frontend" target="_blank"><img
+                                src="assets/icons/github.png" alt="frontend github"></a>
+                    </div>
+                </div>
+            </article>
+            <article class="tile">
+                <img src="assets/images/habitual.png" alt="Habitual" />
+                <div class="image-overlay purple">
+                    <h3>Habitual</h3>
+                    <p><span class="subtitle">Turn your rituals into good habits.</span> Habitual is a habit tracker
+                        created using NodeJS,
+                        ExpressJS, authentication, and a postgreSQL database </p>
+                    <div class="icons">
+                        <a href="https://relaxed-speculoos-a7d774.netlify.app/client/login.html" target="_blank"><img
+                                src="assets/icons/web.png" alt="web"></a>
+                        <a href="https://github.com/JLP2000/habitual-client" target="_blank"><img
+                                src="assets/icons/github.png" alt="frontend github"></a>
+                        <a href="https://github.com/JLP2000/habitual-server" target="_blank"><img
+                                src="assets/icons/github.png" alt="backend github"></a>
+                    </div>
+                </div>
+            </article>
+            <article class="tile">
+                <img src="assets/images/liberty.png" alt="liberty" />
+                <div class="image-overlay green">
+                    <h3>Liberty</h3>
+                    <p><span class="subtitle">Free your unconventional ideas with Liberty</span> - an anonymous
+                        blogging app created with a mongoDB and Mongoose.
+                    </p>
+                    <div class="icons">
+                        <a href="https://github.com/shedp/liberty-blog" target="_blank"><img
+                                src="assets/icons/github.png" alt="frontend github"></a>
+                    </div>
+                </div>
+            </article>
+        </section>
+        <footer id="contactFooter">
+            <header>
+                <h2>Contact</h2>
+            </header>
+            <section id="contact">
+                <div class="contact-item">
+                    <a href="mailto:sheenadiep@gmail.com" target="_blank" class="contact-btn"><img
+                            src="assets/icons/email.png" alt="e-mail" id="e-mail"></a>
+                    <p for="e-mail">E-Mail</p>
+                </div>
+                <div class="contact-item">
+                    <a href="https://github.com/shedp" target="_blank" class="contact-btn"><img
+                            src="assets/icons/github.png" alt="github" id="github"></a>
+                    <p for="github">Github</p>
+                </div>
+                <div class="contact-item">
+                    <a href="https://www.linkedin.com/in/sheena-diep-815241177/" target="_blank"
+                        class="contact-btn"><img src="assets/icons/linkedin.png" id="linkedin" alt="linkedin"></a>
+                    <p for="linkedin">Linkedin</p>
+                </div>
+            </section>
+            <p>This project was coded by Sheena Diep and is <a
+                    href="https://github.com/shedp/SheenaPorfolio">open-sourced</a></p>
+    </div>
+    </footer>
+    </div>
+</body>
+
+</html>

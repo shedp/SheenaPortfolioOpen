@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="assets/scripts/nav.js"></script>
+    <script defer src="assets/scripts/load.js"></script>
+    <link rel="stylesheet" href="assets/styles/main.css" />
+    <link rel="stylesheet" href="assets/styles/nav.css" />
+    <link rel="stylesheet" href="assets/styles/projects.css" />
+    <link rel="stylesheet" href="assets/styles/footer.css" />
+    <title>Sheena | Projects</title>
+</head>
+
+<body>
+    <div id="wrapper">
+        <header id="navbar">
+            <a href="#" class="logo">| Sheena Diep</a>
+            <nav id="nav-links">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div id="menu-toggle"">
+                <a href=" #">Menu</a>
+            </div>
+        </header>
+        <div id="menu-modal" class="modal">
+            <span id="close-btn" class="close">&times;</span>
+            <div class="modal-content">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <section class="header">
+            <header class="major">
+                <h2>Projects</h2>
+            </header>
+        </section>
+        <section id="projects" class="tiles">
+            <article class="tile img-tile">
+                <img src="assets/images/upperhand.png" alt="Upper Hand Poker" />
+            </article>
+            <article class="tile txt-tile">
+                <div class="image-overlay coral" id="upperhand">
+                    <h3>Upper Hand Poker</h3>
+                    <p><span class="subtitle">A poker game with a twist! </span>Upper Hand Poker is a multi player game
+                        with an additional rule - you can see a player's hand! It is built with Vite and tailwind CSS in
+                        the frontend and Flask in the backend with a postgreSQL database. We use Flask-Sockets to emits
+                        and receive live events. To handle the different phases of the game, we used Redux.</p>
+                    <div class="icons">
+                        <!-- <a href="project.html" target="_blank"><img src="assets/icons/open-book.png"
+                                alt="frontend github"></a> -->
+                        <a href="https://github.com/liambrockpy/upper-hand-vite-client" target="_blank"><img
+                                src="assets/icons/github.png" alt="frontend github"></a>
+                        <a href="https://github.com/liambrockpy/upper-hand-server" target="_blank"><img
+                                src="assets/icons/github.png" alt="backend github"></a>
+                    </div>
+                </div>
+            </article>
+            <article class="tile txt-tile">
+                <div class="image-overlay mustard" id="urlshorten">
+                    <h3>URL Shortener</h3>
+                    <p><span class="subtitle">A URL shortener for lovers of pink! </span> This is a URL shorten created
+                        with Python (Flask) and Jinga for the frontend. It uses an SQL database (SQLAlchemy).</p>
+                    <div class="icons">
+                        <a href="https://github.com/shedp/pythonURLShortener" target="_blank"><img
+                                src="assets/icons/github.png" alt="url shortener"></a>
+                    </div>
+                </div>
+            </article>
+            <article class="tile img-tile">
+                <img src="assets/images/urlshorten.png" alt="URL Shortener" />
+            </article>
+            <article class="tile img-tile">
+                <img src="assets/images/yeoldequiz.png" alt="Ye Olde Quiz" />
+            </article>
+            <article class="tile txt-tile">
+                <div class="image-overlay blue" id="yeolde">
+                    <h3>Ye Olde Quiz</h3>
+                    <p><span class="subtitle">Ye Old Quiz brings the pub quiz to your homes.</span> This retro-style
+                        multiplayer quiz game inspired by a classic pub quiz. It uses
+                        Socket.io for the live multi-player functionality,
+                        and a React.js frontend with a Node.js for the backend.</p>
+                    <div class="icons">
+                        <a href="https://github.com/PollyFenne/Ye_olde_quiz_frontend" target="_blank"><img
+                                src="assets/icons/github.png" alt="frontend github"></a>
+                        <a href="https://github.com/shedp/YeOldeQuizBackend" target="_blank"><img
+                                src="assets/icons/github.png" alt="backend github"></a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="tile txt-tile">
+                <div class="image-overlay purple" id="gittracker">
+                    <h3>Git Tracker</h3>
+                    <p><span class="subtitle">Octodog > Octocat.</span> With Git Tracker, you can search for Github
+                        users
+                        and view their stats such as repos and languages. It utilises the Github API and React for the
+                        frontend. It uses CharJS to visualize the language usage by the user. (Dogs are better
+                        trackers!)
+                    </p>
+                    <div class="icons">
+                        <a href="https://github.com/shedp/GithubTrackerReact" target="_blank"><img
+                                src="assets/icons/github.png" alt="frontend github"></a>
+                    </div>
+                </div>
+            </article>
+            <article class="tile img-tile">
+                <img src="assets/images/gittracker.png" alt="Git Tracker" />
+            </article>
+
+            <article class="tile img-tile">
+                <img src="assets/images/habitual.png" alt="Habitual" />
+            </article>
+            <article class="tile txt-tile">
+                <div class="image-overlay green" id="habitual">
+                    <h3>Habitual</h3>
+                    <p><span class="subtitle">Turn your rituals into good habits.</span> Habitual is a habit tracker
+                        created using NodeJS,
+                        ExpressJS, authentication (bycrypt), and a postgreSQL database. The frontend is made using
+                        vanilla CSS and
+                        Javascript.</p>
+                    <div class="icons">
+                        <a href="https://relaxed-speculoos-a7d774.netlify.app/client/login.html" target="_blank"><img
+                                src="assets/icons/web.png" alt="web"></a>
+                        <a href="https://github.com/JLP2000/habitual-client" target="_blank"><img
+                                src="assets/icons/github.png" alt="frontend github"></a>
+                        <a href="https://github.com/JLP2000/habitual-server" target="_blank"><img
+                                src="assets/icons/github.png" alt="backend github"></a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="tile txt-tile">
+                <div class="image-overlay turquoise" id="liberty">
+                    <h3>Liberty</h3>
+                    <p><span class="subtitle">Free your unconventional ideas with Liberty</span> - an anonymous
+                        blogging app created with a mongoDB and Mongoose. It was created with vanilla
+                        CSS and Javascript.
+                    </p>
+                    <div class="icons">
+                        <a href="https://github.com/shedp/liberty-blog" target="_blank"><img
+                                src="assets/icons/github.png" alt="frontend github"></a>
+                    </div>
+                </div>
+            </article>
+            <article class="tile img-tile">
+                <img src="assets/images/liberty.png" alt="liberty" />
+            </article>
+
+            <article class="tile img-tile">
+                <img src="assets/images/prevent.png" alt="prevent" />
+            </article>
+            <article class="tile txt-tile">
+                <div class="image-overlay coral" id="prevent">
+                    <h3>preVent</h3>
+                    <p><span class="subtitle">Vent to Prevent! </span> preVent is an anonymous blogging app that
+                        encourages you to vent out your frustrations. It utilises a GIF api and was created with vanilla
+                        CSS and Javascript.</p>
+                    <div class="icons">
+                        <a href="https://dreamy-jalebi-cb99ed.netlify.app/client/index.html" target="_blank"><img
+                                src="assets/icons/web.png" alt="web"></a>
+                        <a href="https://github.com/shedp/preVent" target="_blank"><img src="assets/icons/github.png"
+                                alt="prevent"></a>
+                    </div>
+                </div>
+            </article>
+        </section>
+        <footer>
+            <header>
+                <h2>Contact</h2>
+            </header>
+            <section id="contact">
+                <div class="contact-item">
+                    <a href="mailto:sheenadiep@gmail.com" target="_blank" class="contact-btn"><img
+                            src="assets/icons/email.png" alt="e-mail" id="e-mail"></a>
+                    <p for="e-mail">E-Mail</p>
+                </div>
+                <div class="contact-item">
+                    <a href="https://github.com/shedp" target="_blank" class="contact-btn"><img
+                            src="assets/icons/github.png" alt="github" id="github"></a>
+                    <p for="github">Github</p>
+                </div>
+                <div class="contact-item">
+                    <a href="https://www.linkedin.com/in/sheena-diep-815241177/" target="_blank"
+                        class="contact-btn"><img src="assets/icons/linkedin.png" id="linkedin" alt="linkedin"></a>
+                    <p for="linkedin">Linkedin</p>
+                </div>
+            </section>
+            <p>This project was coded by Sheena Diep and is <a
+                    href="https://github.com/shedp/SheenaPorfolio">open-sourced</a></p>
+    </div>
+    </footer>
+    </div>
+</body>
+
+</html>
