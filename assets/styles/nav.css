@@ -29,12 +29,8 @@
     margin-right: auto;
 }
 
-.logo img:hover {
-    fill: var(--mintGreen);
-}
-
 .logo img {
-    width: 40px;
+    width: 20px;
 }
 
 .logo:hover {
