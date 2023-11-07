@@ -126,7 +126,7 @@
     #close-btn {
         text-align: right;
         color: white;
-        margin-left: auto;
+        margin-left: 0.5em;
     }
 
     .modal-content {
