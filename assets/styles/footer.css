@@ -10,7 +10,7 @@
 }
 
 footer {
-    padding: 3em 5rem 2em 5rem;
+    padding: 8em 5rem 2em 5rem;
 }
 
 #contactFooter.expanded {
@@ -23,9 +23,9 @@ footer {
     align-content: center;
 }
 
-.contact-page {
+/* .contact-page {
     padding-top: 8rem;
-}
+} */
 
 /* .contact-page h2 {
     border-image: linear-gradient(90deg, rgba(215, 132, 125, 1) 24%, rgba(208, 167, 128, 1) 72%, rgba(125, 178, 173, 1) 100%);
