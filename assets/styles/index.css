@@ -185,13 +185,13 @@ section {
 
 @media screen and (max-width: 1010px) {
 
-    .tile article:nth-child(2),
-    .tile article:nth-child(3) {
+    .tile overlay-items article:nth-child(2),
+    .tile overlay-items article:nth-child(3) {
         width: 57.5%;
     }
 
-    .tile article:nth-child(1),
-    .tile article:nth-child(4) {
+    .tile overlay-items article:nth-child(1),
+    .tile overlay-items article:nth-child(4) {
         width: 42.5%;
     }
 
@@ -199,13 +199,13 @@ section {
 
 @media screen and (max-width: 1000px) {
 
-    .tile article:nth-child(2),
-    .tile article:nth-child(3) {
+    .tile overlay-items article:nth-child(2),
+    .tile overlay-items article:nth-child(3) {
         width: 55%;
     }
 
-    .tile article:nth-child(1),
-    .tile article:nth-child(4) {
+    .tile overlay-items article:nth-child(1),
+    .tile overlay-items article:nth-child(4) {
         width: 45%;
     }
 
@@ -213,13 +213,13 @@ section {
 
 @media screen and (max-width: 990px) {
 
-    .tile article:nth-child(2),
-    .tile article:nth-child(3) {
+    .tile overlay-items article:nth-child(2),
+    .tile overlay-items article:nth-child(3) {
         width: 52.5%;
     }
 
-    .tile article:nth-child(1),
-    .tile article:nth-child(4) {
+    .tile overlay-items article:nth-child(1),
+    .tile overlay-items article:nth-child(4) {
         width: 47.5%;
     }
 
@@ -228,7 +228,7 @@ section {
 
 @media screen and (max-width: 980px) {
 
-    .tile article {
+    .tile overlay-items article {
         width: 50% !important;
     }
 
@@ -236,11 +236,11 @@ section {
 
 @media screen and (max-width: 740px) {
 
-    .tile {
+    .tile overlay-items {
         display: block;
     }
 
-    .tile article {
+    .tile overlay-items article {
         height: 16em;
         max-height: none;
         min-height: 0;
@@ -248,7 +248,7 @@ section {
         width: 100% !important;
     }
 
-    .tile article h3 {
+    .tile overlay-items article h3 {
         font-size: 1.5em;
     }
 

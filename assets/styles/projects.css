@@ -182,15 +182,19 @@ h2 {
     }
 
     .tiles article {
-        height: 16em;
         max-height: none;
         min-height: 0;
-        height: 20em;
+        height: 23em;
         width: 100% !important;
     }
 
     .img-tile {
         display: none;
+    }
+
+    .icons img {
+        width: 35px;
+        height: 35px;
     }
 
 }

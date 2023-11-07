@@ -23,6 +23,10 @@ footer {
     align-content: center;
 }
 
+.contact-page {
+    padding-top: 8rem;
+}
+
 .contact-item img {
     width: 40px;
     margin: 0px 50px;

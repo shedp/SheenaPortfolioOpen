@@ -41,8 +41,6 @@
     color: var(--mintGreen)
 }
 
-;
-
 #navbar a {
     text-decoration: none;
 }
@@ -83,6 +81,22 @@
 
 #nav-links li:hover:nth-child(4) a {
     border-bottom: 1px solid var(--coral);
+    color: var(--coral);
+}
+
+.modal-content li:hover:nth-child(1) a {
+    color: #b4afd4;
+}
+
+.modal-content li:hover:nth-child(2) a {
+    color: var(--turquoise);
+}
+
+.modal-content li:hover:nth-child(3) a {
+    color: var(--mustard);
+}
+
+.modal-content li:hover:nth-child(4) a {
     color: var(--coral);
 }
 
