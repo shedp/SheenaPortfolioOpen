@@ -1,9 +1,9 @@
-.tile overlay-items {
+.tiles {
     display: flex;
     flex-wrap: wrap;
 }
 
-.tile overlay-item {
+.tile {
     position: relative;
     width: 40%;
     height: 30vh;
@@ -12,7 +12,7 @@
     overflow: hidden;
 }
 
-.tile overlay-items article {
+.tiles article {
     width: 40%;
     height: 30vh;
     max-height: 30em;
@@ -21,16 +21,16 @@
     position: relative;
 }
 
-.tile overlay-items article h3 {
+.tiles article h3 {
     font-size: 40px;
 }
 
-.tile overlay-items article:nth-child(4n - 1),
-.tile overlay-items article:nth-child(4n - 2) {
+.tiles article:nth-child(4n - 1),
+.tiles article:nth-child(4n - 2) {
     width: 60%;
 }
 
-.tile overlay-item img {
+.tile img {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -49,7 +49,7 @@
     padding: 2em;
 }
 
-.tile overlay-item:hover .image-overlay {
+.tile:hover .image-overlay {
     transform: translateY(0);
 }
 
@@ -73,13 +73,13 @@
 
 @media screen and (max-width: 1010px) {
 
-    .tile overlay-items article:nth-child(2),
-    .tile overlay-items article:nth-child(3) {
+    .tiles article:nth-child(2),
+    .tiles article:nth-child(3) {
         width: 57.5%;
     }
 
-    .tile overlay-items article:nth-child(1),
-    .tile overlay-items article:nth-child(4) {
+    .tiles article:nth-child(1),
+    .tiles article:nth-child(4) {
         width: 42.5%;
     }
 
@@ -87,13 +87,13 @@
 
 @media screen and (max-width: 1000px) {
 
-    .tile overlay-items article:nth-child(2),
-    .tile overlay-items article:nth-child(3) {
+    .tiles article:nth-child(2),
+    .tiles article:nth-child(3) {
         width: 55%;
     }
 
-    .tile overlay-items article:nth-child(1),
-    .tile overlay-items article:nth-child(4) {
+    .tiles article:nth-child(1),
+    .tiles article:nth-child(4) {
         width: 45%;
     }
 
@@ -101,13 +101,13 @@
 
 @media screen and (max-width: 990px) {
 
-    .tile overlay-items article:nth-child(2),
-    .tile overlay-items article:nth-child(3) {
+    .tiles article:nth-child(2),
+    .tiles article:nth-child(3) {
         width: 52.5%;
     }
 
-    .tile overlay-items article:nth-child(1),
-    .tile overlay-items article:nth-child(4) {
+    .tiles article:nth-child(1),
+    .tiles article:nth-child(4) {
         width: 47.5%;
     }
 
@@ -116,7 +116,7 @@
 
 @media screen and (max-width: 980px) {
 
-    .tile overlay-items article {
+    .tiles article {
         width: 50% !important;
     }
 
@@ -124,11 +124,11 @@
 
 @media screen and (max-width: 740px) {
 
-    .tile overlay-items {
+    .tiles {
         display: block;
     }
 
-    .tile overlay-items article {
+    .tiles article {
         height: 16em;
         max-height: none;
         min-height: 0;
@@ -136,7 +136,7 @@
         width: 100% !important;
     }
 
-    .tile overlay-items article h3 {
+    .tiles article h3 {
         font-size: 1.5em;
     }
 
