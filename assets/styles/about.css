@@ -35,12 +35,12 @@
     color: white;
 }
 
-section .purple {
+section .text-purple {
     color: var(--purple);
     font-size: 18px;
 }
 
-section .blue {
+section .text-blue {
     color: var(--blue);
     font-size: 18px;
 }
