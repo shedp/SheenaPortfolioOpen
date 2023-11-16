@@ -29,8 +29,9 @@
     margin-right: auto;
 }
 
-.logo img {
-    width: 20px;
+.pandalogo {
+    width: 25px;
+    margin-right: 10px;
 }
 
 .logo:hover {
@@ -39,6 +40,11 @@
 
 #navbar a {
     text-decoration: none;
+}
+
+#nav-links,
+#navbar a {
+    margin-top: 6px;
 }
 
 #nav-links ul {

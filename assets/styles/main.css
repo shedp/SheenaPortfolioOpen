@@ -112,6 +112,10 @@ h2 {
     font-size: 30px;
 }
 
+.subtitle {
+    color: #262a45
+}
+
 @media (max-width: 1040px) {
     * {
         font-size: 14px;
