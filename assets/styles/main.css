@@ -121,3 +121,29 @@ h2 {
         font-size: 14px;
     }
 }
+
+.coral {
+    background-color: var(--coral);
+}
+
+.mustard {
+    background-color: var(--mustard);
+}
+
+.blue {
+    background-color: var(--blue);
+}
+
+.purple {
+    background-color: var(--purple);
+}
+
+.green {
+    background-color: var(--mintGreen);
+}
+
+.turquoise {
+    background-color: var(--turquoise);
+}
+
+/* append a div with class="image-overlay" and a second class depending on the index of the object  */

@@ -25,75 +25,38 @@ h2 {
     margin-bottom: 40px;
 }
 
-
 .tiles {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
 }
 
-.tile {
+.project {
     display: flex;
-    flex-direction: column;
-    position: relative;
-    width: 40%;
+    flex-direction: row;
     height: 25em;
     min-height: 25em;
     overflow: hidden;
 }
 
-.tiles article {
-    width: 40%;
-    overflow: hidden;
+.tile {
+    padding: 2em;
+}
+
+.tile,
+.img-tile {
+    display: flex;
+    flex-direction: column;
     position: relative;
-    min-height: 30em;
+    width: 40%;
 }
 
-.tiles article h3 {
-    font-size: 40px;
-}
-
-.tiles article:nth-child(4n - 1),
-.tiles article:nth-child(4n - 2) {
+.img-tile {
     width: 60%;
-}
-
-.tile img {
-    width: 100%;
-    height: 100%;
     object-fit: cover;
 }
 
-.image-overlay {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    padding: 2em;
-    display: flex;
-    flex-direction: column;
-}
-
-.coral {
-    background-color: var(--coral);
-}
-
-.mustard {
-    background-color: var(--mustard);
-}
-
-.blue {
-    background-color: var(--blue);
-}
-
-.purple {
-    background-color: var(--purple);
-}
-
-.green {
-    background-color: var(--mintGreen);
-}
-
-.turquoise {
-    background-color: var(--turquoise);
+.tile h3 {
+    font-size: 40px;
 }
 
 .icons a:hover {
@@ -116,13 +79,11 @@ h2 {
 
 @media screen and (max-width: 1035px) {
 
-    .tiles article:nth-child(2),
-    .tiles article:nth-child(3) {
+    .tile {
         width: 57.5%;
     }
 
-    .tiles article:nth-child(1),
-    .tiles article:nth-child(4) {
+    .img-tile {
         width: 42.5%;
     }
 
@@ -134,15 +95,14 @@ h2 {
 
 }
 
+
 @media screen and (max-width: 1000px) {
 
-    .tiles article:nth-child(2),
-    .tiles article:nth-child(3) {
+    .tile {
         width: 55%;
     }
 
-    .tiles article:nth-child(1),
-    .tiles article:nth-child(4) {
+    .img-tile {
         width: 45%;
     }
 
@@ -150,13 +110,11 @@ h2 {
 
 @media screen and (max-width: 990px) {
 
-    .tiles article:nth-child(2),
-    .tiles article:nth-child(3) {
+    .tile {
         width: 52.5%;
     }
 
-    .tiles article:nth-child(1),
-    .tiles article:nth-child(4) {
+    .img-tile {
         width: 47.5%;
     }
 
@@ -169,7 +127,8 @@ h2 {
 
 @media screen and (max-width: 980px) {
 
-    .tiles article {
+    .tile,
+    .img-tile {
         width: 50% !important;
     }
 }
@@ -181,7 +140,7 @@ h2 {
         flex-direction: column;
     }
 
-    .tiles article {
+    .tile {
         max-height: none;
         min-height: 0;
         height: 23em;
