@@ -1,2 +1,3 @@
 # SheenaPorfolio
-My personal portfolio
+
+My personal portfolio made with vanilla CSS and Javascript.

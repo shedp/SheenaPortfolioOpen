@@ -1,5 +1,14 @@
 const projectData = [
   {
+    title: "Guest Access",
+    subtitle: "My first enterprise product! ",
+    description: "This project aims to improve the process for employees to request for 3rd party guests to access the enterprise network. More information coming soon!",
+    image: "GuestAccessRequest.png",
+    icons: [
+      { icon: "open-book.png", link: 'project/guestaccess_about.html', alt: "read more" }
+    ]
+  },
+  {
     title: "Rain Check",
     subtitle: "Have you had a rain check? ",
     description: "This is a solo front end web application build with ReactJS and Tailwind CSS. It uses the OpenWeatherApp API, WeatherAPI, Google Times Zone API and Unsplash API. It is deployed on Netlify.",
