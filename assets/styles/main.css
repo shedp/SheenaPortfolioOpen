@@ -103,7 +103,7 @@ h2 {
     font-size: 40px;
     padding-bottom: 5px;
     border-bottom: 1px solid transparent;
-    border-image: var(--gradient);
+    border-image: var(--gradientP2G);
     border-image-slice: 1;
     margin-bottom: 40px;
 }

@@ -5,10 +5,12 @@
     --mintGreen: #62B6B7;
     --turquoise: #70b7d2;
     --purple: #827ab6;
+    --purplel: #b4afd4;
     --coral: #d7847d;
     --mustard: #d0a780;
     --blue: #8ba1d7;
-    --gradient: linear-gradient(45deg, rgba(130, 122, 182, 1) 16%, rgba(139, 161, 215, 1) 34%, rgba(112, 183, 210, 1) 51%, rgba(113, 173, 158, 1) 70%);
+    --gradientP2G: linear-gradient(45deg, rgba(130, 122, 182, 1) 16%, rgba(139, 161, 215, 1) 34%, rgba(112, 183, 210, 1) 51%, rgba(113, 173, 158, 1) 70%);
+    --gradientO2B: linear-gradient(90deg, rgba(208, 167, 128, 1) 37%, rgba(98, 182, 183, 1) 65%, rgba(112, 183, 210, 1) 92%);
 }
 
 #wrapper {
@@ -42,7 +44,7 @@ section {
 
 .banner span {
     font-size: 40px;
-    background: var(--gradient);
+    background: var(--gradientP2G);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
@@ -56,7 +58,7 @@ section {
 }
 
 .skills {
-    background: var(--gradient);
+    background: var(--gradientP2G);
 }
 
 .skills h2 {

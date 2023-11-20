@@ -1,43 +1,40 @@
 const indexData = [
   {
-    title: "Rain Check",
-    subtitle: "Have you had a rain check? ",
-    description: "This is a frontend Weather app created with ReactJS and uses the WeatherAPI.",
-    image: "rain_check.png",
+    title: "Project 1",
+    subtitle: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
+    description: "Sed eu porttitor eros. Nam ut ultricies quam. Sed euismod leo orci, sit amet scelerisque eros lacinia eu. Aliquam consequat ac purus lobortis pulvinar.",
+    image: "../icons/panda.png",
     icons: [
-      { icon: "web.png", link: "https://unique-palmier-9835d9.netlify.app/", alt: "netlify app" },
-      { icon: "github.png", link: "https://github.com/shedp/rain_check", alt: "github" }
+      { icon: "open-book.png", link: 'project/project_about.html', alt: "read more" }
     ]
   },
   {
-    title: "Upper Hand Poker",
-    subtitle: "A poker game with a twist! ",
-    description: "Upper Hand Poker is a multi player game built with Vite and Tailwind CSS in the frontend and Flask in the backend with and SQL database.",
-    image: "upperhand.png",
+    title: "Project 2",
+    subtitle: "Nullam molestie ante in mattis accumsan. ",
+    description: "Etiam pretium eleifend quam. Integer tempor lacus eu arcu pulvinar tincidunt. In faucibus nisl nec orci facilisis, sit amet venenatis elit aliquam.",
+    image: "../icons/panda.png",
     icons: [
-      { icon: "github.png", link: "https://github.com/liambrockpy/upper-hand-vite-client", alt: "client github" },
-      { icon: "github.png", link: "https://github.com/liambrockpy/upper-hand-server", alt: "server github" }
+      { icon: "web.png", link: "#", alt: "netlify app" },
+      { icon: "github.png", link: "#", alt: "github" }
     ]
   },
   {
-    title: "Ye Olde Quiz",
-    subtitle: "Ye Old Quiz brings the pub quiz to your homes. ",
-    description: "This retro-style multiplayer quiz game uses Socket.io and a React.js frontend with a Node.js for the backend.",
-    image: "yeoldequiz.png",
+    title: "Project 3",
+    subtitle: "Ut scelerisque finibus sem sit amet pharetra. ",
+    description: "Sed eget turpis sed nulla imperdiet lobortis. Mauris accumsan ligula sagittis feugiat aliquam. Duis pharetra congue ipsum, ut accumsan elit luctus ultricies.",
+    image: "../icons/panda.png",
     icons: [
-      { icon: "github.png", link: "https://github.com/PollyFenne/Ye_olde_quiz_frontend", alt: "client github" },
-      { icon: "github.png", link: "https://github.com/shedp/YeOldeQuizBackend", alt: "server github" }
+      { icon: "github.png", link: "#", alt: "client github" },
+      { icon: "github.png", link: "#", alt: "server github" }
     ]
   },
   {
-    title: "Habitual",
-    subtitle: "Turn your rituals into good habits. ",
-    description: "Habitual is a habit tracker created using NodeJS, ExpressJS, authentication, and a postgreSQL database",
-    image: "habitual.png",
+    title: "Project 4",
+    subtitle: "Vivamus egestas justo vel bibendum aliquet. ",
+    description: "Maecenas dapibus ipsum tincidunt orci cursus elementum. Praesent auctor sagittis lectus. Donec sit amet accumsan ante. Quisque egestas enim id augue dictum, non eleifend leo porta.",
+    image: "../icons/panda.png",
     icons: [
-      { icon: "web.png", link: "https://relaxed-speculoos-a7d774.netlify.app/client/login.html", alt: "netlify app" },
-      { icon: "github.png", link: "https://github.com/JLP2000/habitual-client", alt: "client github" },
-      { icon: "github.png", link: "https://github.com/JLP2000/habitual-server", alt: "server github" }
+      { icon: "github.png", link: "#/pythonURLShortener", alt: "github" },
     ]
   }
 ];
