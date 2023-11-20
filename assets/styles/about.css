@@ -35,16 +35,10 @@
     color: white;
 }
 
-section .text-purple {
-    color: var(--purple);
-    font-size: 18px;
-}
-
+section .text-purple,
 section .text-blue {
-    color: var(--blue);
     font-size: 18px;
 }
-
 section .header {
     background: var(--navy);
 }

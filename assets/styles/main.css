@@ -146,4 +146,12 @@ h2 {
     background-color: var(--turquoise);
 }
 
+.text-purple {
+    color: var(--purple);
+}
+
+.text-blue {
+    color: var(--blue);
+}
+
 /* append a div with class="image-overlay" and a second class depending on the index of the object  */
