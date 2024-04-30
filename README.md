@@ -1,44 +1,96 @@
-# SheenaPorfolio
- This repository holds the code for my personal portfolio where the text and images are replace with placholder Lorem Ipsum and pandas.
+# Sheena Porfolio
 
- It is made with Vanilla CSS and Vanilla Javascript.
+This repository holds the code for my personal portfolio where the text and images are replace with placeholder Lorem Ipsum and pandas.
 
- ## Pages
- ### index.html
-- This is the landing page - in the **About** section, write a short introduction about yourself and,
- link your CV.
-- In the **Skills** section, you can list your skill set.
-- In **Featured Projects** is an overview of your projects, including an image, a title and a short description (2 tiers). The cards are dynamically rendered from data in `assets/scripts/indexData.js`
-    *Note that the cards are not flexible hight-wise: keep your descriptions short & sweet!
-- You can link to the delpyed product, a readmore page or the Github repo from the icons
-- It contains a **Contact** footer where you can link you email, Linkedin, and Github.
+It is made with ReactJS and Tailwind CSS.
 
-### about.html
+## Installation
+
+- Download or clone this repo
+  `git clone`
+
+- Install all dependencies
+  `npm install`
+
+## db > db.js > projectData
+
+- An array of objects that contain data for each project:
+
+```
+{
+    title:,
+    subtitle:,
+    description:,
+    image:,
+    technologies: [{ name:, type:}],
+    icons: [{icon:, link:, alt: "Read More"}],
+  }
+```
+
+## Components >
+
+### ActionButton
+
+- This is the component of the button. It takes in 3 variables:
+
+1. **content:** this is the call to action/text within the button
+2. **shadowColor:** this is the color of the border of the button e.g `shadow-teal-300`
+3. **textColor:** this is the text color of the button e.g `text-teal-300`
+   _Note: you can add other styling to the button using the shadowColor or textColor variables_
+
+### Card
+
+- This is the component of the project cards. It takes in 2 variables:
+
+1. **project:** this is project object from the ProjectData
+2. **bgColor:**: this is the background color of the card e.g `bg-teal-300`
+
+### Icon, Tags
+
+- These are elements of the card component. They take in data from the project (project.icon and project.technologies)
+
+### Contact
+
+- This is the footer/contact content:
+  **Customise the link paths**
+
+### Modal
+
+- This is the menu modal for mobile screens:
+
+### Navbar
+
+- This is a fully responsive navbar that opens the modal on mobile
+  **Customise the logo**
+
+  ### Section
+
+- This is the template for each section. It contains 2 sections, the first section takes in 6 variables:
+
+1. **sectionStyle**: any additional Tailwind styling you want to apply to the entire section
+2. **title**: the title of the section
+3. **titleStyle**: any additional Tailwind styling you want to apply to the title element
+4. **subtitle**: the subtitle of the section
+5. **subtitleStyle**: any additional Tailwind styling you want to apply to the subtitle element 6.**titleBorderStyle**: any styling you want to add to the border of the first section
+
+The next section can contain any content you want: **children**
+
+## Pages
+
+#### Homepage
+
+- This is the landing page that some with the 4 sections, title, skills, projects, project highlights which can be customised
+
+### Aboutpage
+
 - This is an about page where you can enter some text about yourself.
 
-### projects.html
-- This is a page specifically for projects. It is in the form of cards but with the image and text togther, allowing for more detail.
-- If you want to add more detail on the project, I'd recommend linking to a sperate page `./project/project_about.html`.
-- The cards are dynamically rendered from data in `assets/scripts/projectData.js` - note that you can use the same data from `indexData.js` if preferred.
+### Projectpage
 
-### contact.html
-- This is a dedicated space for the contact details
-- Note that contact details are in all pages as a footer.
+- This is a page specifically for projects. It is in the form of cards
+- The read more icon allows for linking to a specific projects page
+- The cards are dynamically rendered from data in `db.js`
 
-## Styles
-### main.css
-- This is the global styling sheet which also contain styleing classes which you can add on any element such as `.text-purple` or `.text-blue`
-### footer.css
-- This sheet also contain styles for the `contact.html` page
+### Contactpage
 
-## Scripts
-### *Data.js
-- As mentioned above, these are data files that allows dynamic rendering
-### index.js & projects.js
-- These render the cards in their respective pages using the `Data.js` data
-### nav.js
-- This script handles the menu toggle functionality for responsiveness
-
-## Images & Icons
-- Images for projects go inside the `./assets/images` folder
-- Icons and logos go inside the `./assets/icons` folder
+- This is an empty page as the footer fills the page
