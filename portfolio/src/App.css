@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,600,600italic");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Kawi:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap");
+
+:root {
+  --gradient: linear-gradient(
+    220deg,
+    rgba(45, 212, 191, 1) 25%,
+    rgba(56, 189, 248, 1) 50%,
+    rgba(129, 140, 248, 1) 75%
+  );
+}
+
+* {
+  font-family: "Noto Sans Kawi", sans-serif;
+  letter-spacing: 0.2rem;
+  font-size: 16px;
+}
+
+.bg-gradient {
+  background: var(--gradient);
+}
+
+.border-gradient {
+  border-image: var(--gradient);
+  border-image-slice: 1;
+}
+
+.text-gradient {
+  background: var(--gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.actionButton {
+  padding: 20px 20px 15px 20px;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  width: fit-content;
+  cursor: pointer;
+  box-shadow: inset 0 0 0 1px;
+  transition: color 0.25s 0.085s;
+  position: relative;
+  background: none;
+  border: none;
+  white-space: nowrap;
+}
+
+.actionButton:before,
+.actionButton:after {
+  border: 0 solid transparent;
+  box-sizing: border-box;
+  content: "";
+  pointer-events: none;
+  position: absolute;
+  width: 0;
+  height: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.actionButton:before {
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+}
+
+.actionButton:after {
+  border-top-width: 1px;
+  border-right-width: 1px;
+}
+
+.actionButton:hover {
+  color: #f43f5e;
+}
+
+.actionButton:hover:before,
+.actionButton:hover:after {
+  border-color: #f43f5e;
+  transition: border-color 0s, width 0.25s, height 0.25s;
+  width: 100%;
+  height: 100%;
+}
+
+.actionButton:hover:before {
+  transition-delay: 0s, 0s, 0.25s;
+}
+
+.actionButton:hover:after {
+  transition-delay: 0s, 0.25s, 0s;
+}
+
+#email:hover {
+  filter: invert(53%) sepia(29%) saturate(946%) hue-rotate(302deg)
+    brightness(101%) contrast(97%);
+}
+
+#github:hover {
+  filter: invert(52%) sepia(30%) saturate(3068%) hue-rotate(211deg)
+    brightness(105%) contrast(94%);
+}
+
+#linkedin:hover {
+  filter: invert(71%) sepia(24%) saturate(5517%) hue-rotate(168deg)
+    brightness(101%) contrast(95%);
+}
